@@ -4,7 +4,7 @@
 
     <groupId>com.saraqian</groupId>
     <artifactId>market-proxy</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
 
     <properties>
         <jersey.version>2.27</jersey.version>
@@ -15,7 +15,7 @@
         <connection>scm:git:https://github.com/abigail830/market-proxy.git</connection>
         <developerConnection>scm:git:https://github.com/abigail830/market-proxy.git</developerConnection>
         <url>https://github.com/abigail830/market-proxy</url>
-        <tag>v1.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
