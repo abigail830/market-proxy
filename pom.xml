@@ -18,6 +18,19 @@
         <tag>HEAD</tag>
     </scm>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>market-proxy</name>
+            <url>http://nexus.saraqian.cn/repository/market-proxy/</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus</id>
+            <name>market-proxy</name>
+            <url>http://nexus.saraqian.cn/repository/market-proxy/</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
