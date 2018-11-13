@@ -21,13 +21,13 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexus</id>
-            <name>market-proxy</name>
-            <url>http://nexus.saraqian.cn/repository/market-proxy/</url>
+            <name>maven-snapshots</name>
+            <url>http://nexus.saraqian.cn/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexus</id>
-            <name>market-proxy</name>
-            <url>http://nexus.saraqian.cn/repository/market-proxy/</url>
+            <name>maven-releases</name>
+            <url>http://nexus.saraqian.cn/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 
